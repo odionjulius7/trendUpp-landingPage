@@ -10,11 +10,11 @@ export default function ({showMenu, toggleMenu}) {
             showMenu ? 
                 <>
                     <div id='desktop-nav' className="d-flex ml-2">
-                        <button className="btn">Search 1</button>
-                        <button className="btn">Search 1</button>
-                        <button className="btn">Search 1</button>
-                        <button className="btn">Search</button>
-                        <button className="btn">Search</button>
+                        <button className="btn">Features</button>
+                        <button className="btn">Pricing</button>
+                        <button className="btn">Community</button>
+                        <button className="btn">Support</button>
+                        <button className="btn">Contact Us</button>
                         <button id="jumbo-last" className="btn" type="submit">Join Today</button> 
                     </div>
                     {/* <p onClick={toggleMenu} className={showMenu && 'close'}> */}
@@ -24,11 +24,11 @@ export default function ({showMenu, toggleMenu}) {
                 :
                 
                 <div className="d-flex ml-2 desktopnav-class">
-                    <button className="btn">Search</button>
-                    <button className="btn">Search</button>
-                    <button className="btn">Search</button>
-                    <button className="btn">Search</button>
-                    <button className="btn">Search</button>
+                    <button className="btn">Features</button>
+                    <button className="btn">Pricing</button>
+                    <button className="btn">Community</button>
+                    <button className="btn">Support</button>
+                    <button className="btn">Contact Us</button>
                     <button id="jumbo-last" className="btn" type="submit">Join Today</button> 
                 </div>
                 
