@@ -1,0 +1,57 @@
+return (
+    <>
+      {showMenu ? (
+        <>
+          <div id="desktop-nav" className="d-flex ml-2">
+            <button className="btn btn-nav">Sign Up</button>
+            <button className="btn btn-nav">Login</button>
+            <button className="btn btn-nav">Download App</button>
+            {/* <button
+              // style={{ fontFamily: "Montserrat" }}
+              id="jumbo-last"
+              className="btn"
+              type="submit"
+            >
+              Join Today
+            </button> */}
+          </div>
+          {/* <p onClick={toggleMenu} className={showMenu && 'close'}> */}
+          <AiOutlineClose
+            onClick={toggleMenu}
+            className={showMenu && "close"}
+          />
+          {/* </p> */}
+        </>
+      ) : (
+        <div className="d-flex ml-2 desktopnav-class">
+          <button className="btn btn-nav">Features</button>
+          <button className="btn btn-nav">Pricing</button>
+          <button className="btn btn-nav">Community</button>
+          <button className="btn btn-nav">Support</button>
+          <button className="btn btn-nav">Contact Us</button>
+          <button id="jumbo-last" className="btn" type="submit">
+            Join Today
+          </button>
+        </div>
+      )}
+    </>
+
+
+    /* NEW>>>>>>>>>>>>>>>>> */
+    <h4 class="ui header"><i aria-hidden="true" class="trophy icon">
+    </i><div class="content">Trending repos 
+    <div role="listbox" aria-expanded="false" class="ui inline dropdown" tabindex="0">
+    <div aria-atomic="true" aria-live="polite" role="alert" class="divider text">today</div>
+    <i aria-hidden="true" class="dropdown icon"></i><div class="menu transition">
+    <div class="header">Adjust time span</div>
+    <div style="pointer-events:all" role="option" aria-checked="true" aria-selected="true" class="active selected item">
+    <span class="text">Today</span></div>
+    <div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item">
+    <span class="text">This Week</span></div>
+    <div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item">
+    <span class="text">This Month</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </h4>
