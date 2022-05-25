@@ -384,6 +384,14 @@ font-size: 18px; */
     padding: 0.6rem;
   }
 }
+/* max of 600 */
+
+@media screen and (max-width: 600px) {
+  .one {
+    order: 1;
+    /* width: 40%; */
+  }
+}
 
 /* max of 450px */
 
