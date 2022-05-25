@@ -1,5 +1,5 @@
 .jumbo {
-  background: linear-gradient(to bottom right, #36f5ec, #ee0c72);
+  background: linear-gradient(to bottom right, #a6dbed, #e95aae);
   /* min-height: 100vh; */
 }
 
@@ -22,21 +22,33 @@
 }
 
 .jumbo-content {
-  /* width: 80rem; */
   margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
 
-.jumbo-img {
+.one {
+  /* order: 1; */
+  /* width: 40%; */
+}
+
+.two {
+  /* order: 1; */
+  /* width: 50%; */
+}
+
+.jumbo-img-1 {
+  width: 50%;
+}
+
+.jumbo-new-img {
+  /* height: 80vh; */
 }
 
 .header-1 {
-  font-weight: 500;
+  /* width: 100%; */
   font-size: 3rem;
-  /* line-height: 70px; */
   letter-spacing: -0.015em;
-
   color: #0a086a;
 }
 
@@ -77,12 +89,7 @@
 
 .second-section {
   /* height: 500px; */
-  background: linear-gradient(
-    to bottom right,
-    #e45193,
-    rgba(37, 10, 136, 0.719),
-    #0a086a
-  );
+  background: linear-gradient(to bottom right, #e95ab9, #2952a9, #100170);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -109,7 +116,7 @@ font-size: 18px; */
 }
 
 .sec-head-3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fira Sans";
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
@@ -259,44 +266,9 @@ font-size: 18px; */
 /* Media Query */
 
 @media screen and (max-width: 800px) {
-  /* .desktopnav-class button {
-    display: none !important;
-  } */
-  /* .mobile-menu {
-    display: block;
-    position: absolute;
-    top: 35px;
-    right: 10px;
-    cursor: pointer;
-  } */
-
-  /* .jumbo {
-    position: relative;
-  } */
-
-  /* #desktop-nav {
-    position: absolute !important;
-    right: -5% !important;
-    top: 0 !important;
-    height: 50vh !important;
-    width: 70% !important;
-    background: linear-gradient(to bottom right, #36f5ec, #ee0c72);
-    z-index: 100;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  } */
-
-  /* .close {
-    position: absolute;
-    top: 25px;
-    right: 0px;
-    z-index: 200;
-    cursor: pointer;
-    margin: 0.4rem;
-    font-size: 2rem;
-  } */
+  .navbar > .container-fluid {
+    flex-wrap: nowrap !important;
+  }
 
   .header-1 {
     font-size: 1.5rem;
@@ -307,7 +279,7 @@ font-size: 18px; */
   }
 
   .sec-paragraph {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .sec-img {
@@ -332,7 +304,6 @@ font-size: 18px; */
     padding-top: 2.5rem;
   }
   .third-sec-container p {
-    /* padding-bottom: 1rem;  */
     font-size: 1.2rem;
   }
 
@@ -343,7 +314,7 @@ font-size: 18px; */
   }
 
   .navbar-brand img {
-    margin-left: -1rem;
+    /* margin-left: -1rem; */
   }
 
   .forth-cont-paragraph {
@@ -389,25 +360,45 @@ font-size: 18px; */
 @media screen and (max-width: 600px) {
   .one {
     order: 1;
-    /* width: 40%; */
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+    margin-top: -1rem;
+  }
+
+  .dropdown {
+    padding: 1px 5px;
+  }
+
+  .header-1 {
+    font-size: 2rem;
+  }
+  .jumbo-new-img {
+    margin-left: -1rem;
+  }
+
+  .forth-sec-btn {
+    padding: 4px 6px;
+  }
+
+  .forth-cont-paragraph {
+    width: 30rem;
+    margin: 0 1.5rem;
+  }
+
+  .forth-sec-img {
+    max-width: 100%;
+  }
+  .p-last {
+    font-size: 0.6;
   }
 }
 
 /* max of 450px */
 
 @media screen and (max-width: 450px) {
-  /* .close {
-        position: absolute;
-        top: 25px;
-        right: 0px;
-        z-index: 200;
-        cursor: pointer;
-        margin: 0.4rem;
-        font-size: 2rem;
-    } */
-
-  .header-1 {
-    font-size: 1.1rem;
+  .btn-nav {
+    padding: 1px 5px;
   }
 
   .sec-head-3 {
@@ -417,7 +408,7 @@ font-size: 18px; */
 
   .sec-paragraph {
     padding-top: 3px;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     line-height: 20px;
   }
 
@@ -426,36 +417,20 @@ font-size: 18px; */
     max-width: 120%;
   }
 
-  /* .third-section {
-        height: 24rem;
-        margin-top: -0.2rem;
-    } */
-
-  /* .third-sec-container p {
-        margin: 1rem;
-     } */
-  /* .second-section {
-         height: 20rem;
-        padding-top: 2.5rem;
-    } */
-  /* .third-sec-container p {
-        font-size: 1.2rem;
-    } */
-
   .jumbo-down-btn {
     height: 30px;
     font-size: 13px;
     width: 150px;
   }
 
-  /* .navbar-brand img {
-        margin-left: -1rem;
-    } */
+  .navbar-brand img {
+    width: 100%;
+  }
 
   .forth-cont-paragraph {
     font-size: 1rem;
     margin-right: 2rem;
-    width: 26rem;
+    /* width: 26rem; */
   }
 
   /* .forth-sec-img {

@@ -105,7 +105,7 @@ export default function () {
         </div>
         <div className="container my-5">
           <p
-            className=""
+            className="p-last"
             style={{
               textAlign: "center",
               fontFamily: "Montserrat",
