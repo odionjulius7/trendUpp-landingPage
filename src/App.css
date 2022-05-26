@@ -28,6 +28,7 @@
 }
 
 .one {
+  margin-left: 4rem;
   /* order: 1; */
   /* width: 40%; */
 }
@@ -364,6 +365,7 @@ font-size: 18px; */
     width: 100%;
     text-align: center;
     margin-top: -1rem;
+    margin-left: 1rem;
   }
 
   .dropdown {

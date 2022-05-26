@@ -43,7 +43,7 @@ export default function () {
         </nav>
 
         <div className="row d-flex jumbo-content">
-          <div className="col-sm-6 one">
+          <div className="col-sm-5 one">
             <h1 className="header-1">
               Do what you love <br /> and get supported
               <br /> by your fans
