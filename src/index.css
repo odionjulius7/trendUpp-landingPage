@@ -10,3 +10,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.first-section {
+  height: 40rem;
+  background: linear-gradient(to bottom right, #dbf0fc, #ffdcec);
+}
+
+.list-flex {
+  margin: 0 auto;
+  gap: 1rem;
+  width: 900px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.circle1 {
+  width: 250px;
+  height: 250px;
+  background-color: #ef0066;
+  border-radius: 50%;
+  /* margin: 2rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Media Query */
+@media screen and (max-width: 1000px) {
+  .list-flex {
+    width: 700px;
+    padding-top: 2rem;
+  }
+
+  .circle1 {
+    width: 200px;
+    height: 200px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .list-flex {
+    width: 500px;
+    padding-top: 0;
+  }
+
+  .circle1 {
+    width: 180px;
+    height: 180px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .first-section {
+    height: 35rem;
+  }
+
+  .list-flex {
+    width: 400px;
+    padding-bottom: 1rem;
+  }
+
+  .circle1 {
+    width: 150px;
+    height: 150px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .first-section {
+    height: 32rem;
+  }
+
+  .list-flex {
+    width: 300px;
+  }
+
+  .circle1 {
+    width: 120px;
+    height: 120px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}

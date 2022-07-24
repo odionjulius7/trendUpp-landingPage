@@ -7,11 +7,23 @@ export default function () {
   return (
     <div className="">
       <Jumbotron />
-      {/* <div className='col-md-12 first-section'>
-            <div className='container'>
-                 new
-            </div> 
-        </div> */}
+      <div className="col-md-12 first-section">
+        <div className="container pt-5 pb-4">
+          <div className="row list-flex d-flex">
+            <div className="circle1">Podcasters</div>
+            <div className="circle1">
+              Content <br /> Creators
+            </div>
+            <div className="circle1">Visual Artists</div>
+            <div className="circle1">
+              Tutorials <br /> & Education
+            </div>
+            <div className="circle1">Visual Creators</div>
+            <div className="circle1">Nonprofits</div>
+          </div>
+          {/* <div className="row"></div> */}
+        </div>
+      </div>
       <div className="col-md-12 second-section">
         <div className="container d-flex second-sec-content">
           <div className="col-md-7">
