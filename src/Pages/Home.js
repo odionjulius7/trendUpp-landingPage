@@ -74,7 +74,15 @@ export default function () {
               <span style={{ paddingRight: "5px" }}>3.</span>Start receiving
               payments
             </p>
-            <button className="forth-sec-btn">Sign up</button>
+            <button className="forth-sec-btn">
+              <a
+                href="https://trendupp.com/signup"
+                className="a-link"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                Sign up
+              </a>
+            </button>
           </div>
           <div className="col-md-6">
             <img src={ImageLady} class="img-fluid forth-sec-img" alt="lady" />

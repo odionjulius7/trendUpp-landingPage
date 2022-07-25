@@ -24,8 +24,25 @@ export default function () {
               <img src={Vector} class="img-fluid jumbo-img-1" alt="logo" />
             </a>
             <div id="desktop-nav" className="d-flex">
-              <button className="btn btn-nav">Signup</button>
-              <button className="btn btn-nav">Login</button>
+              <button className="btn btn-nav">
+                <a
+                  href="https://trendupp.com/signup"
+                  className="a-link"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Sign up
+                </a>
+              </button>
+              <button className="btn btn-nav">
+                {" "}
+                <a
+                  href="https://trendupp.com/login"
+                  className="a-link"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Login
+                </a>
+              </button>
               {/* <button className="btn btn-nav">Apps</button> */}
 
               <Dropdown>
@@ -34,8 +51,12 @@ export default function () {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Android</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">IOS</Dropdown.Item>
+                  <Dropdown.Item href="https://play.google.com/store/apps/details?id=com.trendup.app">
+                    Android
+                  </Dropdown.Item>
+                  <Dropdown.Item href="https://apps.apple.com/us/app/trendupp/id1502541954">
+                    IOS
+                  </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </div>
@@ -48,7 +69,15 @@ export default function () {
               Do what you love <br /> and get supported
               <br /> by your fans
             </h1>
-            <button className="jumbo-down-btn">Sign up</button>
+            <button className="jumbo-down-btn">
+              <a
+                href="https://trendupp.com/signup"
+                className="a-link"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                Sign up
+              </a>
+            </button>
           </div>
           <div className="col-sm two">
             <img src={Bubble} class="img-fluid jumbo-new-img ml-2" alt="lady" />
