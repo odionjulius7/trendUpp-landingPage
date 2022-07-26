@@ -403,6 +403,11 @@ font-size: 18px; */
     padding: 1px 5px;
   }
 
+  .nav-main-container {
+    /* padding-left: 0;
+    width: 90%; */
+  }
+
   .sec-head-3 {
     font-size: 1.3rem;
     line-height: 19px;
@@ -432,7 +437,7 @@ font-size: 18px; */
   .forth-cont-paragraph {
     font-size: 1rem;
     margin-right: 2rem;
-    /* width: 26rem; */
+    width: 40rem;
   }
 
   /* .forth-sec-img {

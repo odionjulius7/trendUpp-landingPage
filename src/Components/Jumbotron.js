@@ -30,7 +30,7 @@ export default function () {
                   className="a-link"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Sign up
+                  Signup
                 </a>
               </button>
               <button className="btn btn-nav">
