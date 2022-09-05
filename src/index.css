@@ -102,3 +102,74 @@ code {
     font-weight: 700;
   }
 }
+
+/* Menu Links */
+.menu-style {
+  display: flex;
+  align-items: center;
+}
+
+.menu-style a {
+  text-decoration: none;
+  margin: 1rem;
+}
+.menu-style a:not(:last-child) {
+  color: #0a086a;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.015em;
+}
+.menu-style a:last-child {
+  color: #ffffff;
+  background-color: #575fee;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  padding: 3px 15px;
+  border-radius: 5px;
+}
+
+/* End of Menu Links */
+
+/* Email Input Segment */
+
+.email-segment {
+  margin: 2rem 0;
+  width: 491px;
+  height: 49px;
+  background: #ffffff;
+  border-radius: 15px;
+  display: flex;
+}
+
+.email-input {
+  flex-basis: 65%;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.email-input::placeholder {
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.015em;
+  color: #b5b5b5;
+}
+
+.email-btn {
+  flex-basis: 35%;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #36086a;
+  color: #ffffff;
+  /* padding-right: 5px; */
+}
