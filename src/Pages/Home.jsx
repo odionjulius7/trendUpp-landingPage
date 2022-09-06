@@ -54,6 +54,61 @@ export default function () {
           {/* </div> */}
         </div>
       </div>
+      <div className="sectionReview">
+        <div className="container d-flex justify-content-center align-items-center">
+          <div className="reviewCards reviewColor-1">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              laborum debitis rerum dolor. Dolor quidem aspernatur repellendus
+              odio, cum error, pariatur porro nesciunt placeat dignissimos
+              reprehenderit. Delectus debitis nisi quo!
+            </p>
+            <div className="reviewProfile">
+              <img
+                className="reviewImg"
+                src="https://media.istockphoto.com/photos/african-student-sitting-in-classroom-picture-id1351445530?k=20&m=1351445530&s=612x612&w=0&h=VmJb2kB-kX-m9vg_Ei6HEcmvz0PvTMb7d-DM_bP79vg="
+                alt=""
+              />
+              <span className="spanR1">Ogunlade Johson</span>
+              <span className="spanR2">Tiktok Influencer</span>
+            </div>
+          </div>
+          <div className="reviewCards reviewColor-2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              laborum debitis rerum dolor. Dolor quidem aspernatur repellendus
+              odio, cum error, pariatur porro nesciunt placeat dignissimos
+              reprehenderit. Delectus debitis nisi quo!
+            </p>
+            <div className="reviewProfile">
+              <img
+                className="reviewImg"
+                src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                alt=""
+              />
+              <span className="spanR1">Ogunlade Johson</span>
+              <span className="spanR2">Tiktok Influencer</span>
+            </div>
+          </div>
+          <div className="reviewCards reviewColor-3">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              laborum debitis rerum dolor. Dolor quidem aspernatur repellendus
+              odio, cum error, pariatur porro nesciunt placeat dignissimos
+              reprehenderit. Delectus debitis nisi quo!
+            </p>
+            <div className="reviewProfile">
+              <img
+                className="reviewImg"
+                src="https://media.istockphoto.com/photos/african-student-sitting-in-classroom-picture-id1351445530?k=20&m=1351445530&s=612x612&w=0&h=VmJb2kB-kX-m9vg_Ei6HEcmvz0PvTMb7d-DM_bP79vg="
+                alt=""
+              />
+              <span className="spanR1">Ogunlade Johson</span>
+              <span className="spanR2">Tiktok Influencer</span>
+            </div>
+          </div>
+        </div>
+      </div>
       <div style={{ minHeight: "367px" }} className="sectionNewOne">
         <div className="col-md-12 d-flex moo">
           <div className="col-md footerLogo">
