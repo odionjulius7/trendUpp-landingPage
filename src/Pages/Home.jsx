@@ -24,7 +24,10 @@ export default function () {
           </div>
         </div>
       </div>
-      <div className="col-md-12 forth-section">
+      <div
+        // style={{ backgroundImage: "url(../public/img/meshONE.png)" }}
+        className="col-md-12 forth-section"
+      >
         <div className="container forth-sec-content">
           <div className="col-md-6 forth-cont-paragraph">
             <p className="">
@@ -110,59 +113,58 @@ export default function () {
         </div>
       </div>
       <div style={{ minHeight: "367px" }} className="sectionNewOne">
-        <div className="col-md-12 d-flex moo">
-          <div className="col-md footerLogo">
-            <div className="TrendUppLight">
-              <img src={TrendUppLight} alt="" />
+        <div className="container">
+          <div className="col-md-12 d-flex moo">
+            <div className="col-md footerLogo">
+              <div className="TrendUppLight">
+                <img src={TrendUppLight} alt="" />
+              </div>
+              <div className="footerLogoDetails">
+                <p>News</p>
+                <p>Partners</p>
+                <p>About us</p>
+                <p>Contact Us</p>
+                <p>Terms And Condition</p>
+              </div>
             </div>
-            <div className="footerLogoDetails">
-              <p>News</p>
-              <p>Partners</p>
-              <p>About us</p>
-              <p>Contact Us</p>
-              <p>Terms And Condition</p>
+            <div className="col-md footerSocial">
+              <h2>Social</h2>
+              <div className="footerSocialDetails">
+                <p>facebook</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+                <p>Youtube</p>
+              </div>
+            </div>
+            <div className="col-md footerService">
+              <h2>Services</h2>
+              <div className="footerService">
+                <p>Pricing</p>
+                <p>community</p>
+                <p>feedback</p>
+                <p>FAQ</p>
+              </div>
+            </div>
+            <div className="col-md footerActivity">
+              <h2>Activity</h2>
+              <div className="footerActivity">
+                <p>Influencer</p>
+                <p>Affiliate</p>
+                <p>Awards</p>
+              </div>
+            </div>
+            <div className="col-md footerSubscribe">
+              <h2>Subscribe More Info</h2>
+              <div className="footerSubscribeInput">
+                <input type="text" placeholder="type here" />
+                <span>Subscribe</span>
+              </div>
             </div>
           </div>
-          <div className="col-md footerSocial">
-            <h2>Social</h2>
-            <div className="footerSocialDetails">
-              <p>facebook</p>
-              <p>Twitter</p>
-              <p>Instagram</p>
-              <p>Youtube</p>
-            </div>
+          <div className="col-md-10 footerCopyRight mt-5 mb-2">
+            {/* <p className="ftCopyRight">identical to box height, or 100%</p> */}
+            <p>Copyright 2022, Trendupp</p>
           </div>
-          <div className="col-md footerService">
-            <h2>Services</h2>
-            <div className="footerService">
-              <p>Pricing</p>
-              <p>community</p>
-              <p>feedback</p>
-              <p>FAQ</p>
-            </div>
-          </div>
-          <div className="col-md footerActivity">
-            <h2>Activity</h2>
-            <div className="footerActivity">
-              <p>Influencer</p>
-              <p>Affiliate</p>
-              <p>Awards</p>
-            </div>
-          </div>
-          <div className="col-md footerSubscribe">
-            <h2>Subscribe More Info</h2>
-            <div className="footerSubscribeInput">
-              <input
-                type="text"
-                placeholder="identical to box height, or 100%"
-              />
-              <span>Subscribe</span>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-10 footerCopyRight mt-5 mb-2">
-          {/* <p className="ftCopyRight">identical to box height, or 100%</p> */}
-          <p>Copyright 2022, Trendupp</p>
         </div>
       </div>
     </div>

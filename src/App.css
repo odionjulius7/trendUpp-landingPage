@@ -31,13 +31,9 @@
 
 .one {
   margin-left: 4rem;
-  /* order: 1; */
-  /* width: 40%; */
 }
 
 .two {
-  /* order: 1; */
-  /* width: 50%; */
 }
 
 .menu-style {
@@ -85,15 +81,6 @@
   font-weight: 700;
 }
 
-/* .first-section {
-    background: url(../public/img/positions.PNG);
-    background-repeat: no-repeat;
-    /* height: 70rem; */
-/* background-position: center;
-    background-size: cover;
-    height: 600px;
-} */
-
 .second-section {
   /* height: 500px; */
   background: linear-gradient(to bottom right, #e95ab9, #2952a9, #100170);
@@ -104,17 +91,7 @@
   line-height: 36px;
   letter-spacing: -0.015em;
   color: #ffffff;
-
-  /* Body P */
-  /* font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 18px; */
-  /* line-height: 30px; */
-  /* or 167% */
   letter-spacing: -0.015em;
-
-  /* color: rgba(255, 255, 255, 0.8); */
 }
 
 .second-sec-content {
@@ -164,9 +141,11 @@ font-size: 18px; */
 }
 
 .forth-section {
-  background-image: url(../public/img/meshONE.png);
+  background: linear-gradient(to bottom right, #93f0ea, #fba7d0);
+
+  /* background-image: url(../public/img/meshONE.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   /* background-size: cover; */
 }
 
@@ -276,23 +255,28 @@ font-size: 18px; */
 }
 
 .sixth-sec p {
-  font-family: "Fira Sans" !important;
   font-weight: 700 !important;
 }
 
+/* footer */
 .sectionNewOne {
   background: #100170;
-  padding: 1rem 3.5rem;
+  padding: 1rem 0rem;
 }
 
 .moo {
   flex-wrap: wrap;
   width: 100%;
+  gap: 2rem;
 }
 
 .footerLogo .TrendUppLight {
   margin-bottom: 1rem;
   margin-top: 1rem;
+}
+
+.footerSocial {
+  margin-left: 1rem;
 }
 
 .footerSocial h2,
@@ -317,7 +301,7 @@ font-size: 18px; */
 }
 
 .footerSubscribeInput {
-  width: 550px;
+  width: 520px;
   height: 70px;
   background-color: #ffffff;
   /* background: rgba(255, 255, 255, 0.8); */
@@ -363,7 +347,7 @@ font-size: 18px; */
 .footerActivity p {
   color: #ffffff;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.015em;
 }
@@ -395,7 +379,7 @@ font-size: 18px; */
 
 .reviewCards {
   flex-basis: 33.333%;
-  min-height: 200px;
+  height: 200px;
   border: #e3e3e3;
   border-radius: 5px;
   padding: 1.5rem;
@@ -627,10 +611,16 @@ font-size: 18px; */
     gap: 2rem;
   }
 
+  .reviewCards {
+    min-height: 200px;
+  }
+
   .reviewColor-2 {
-    background-color: #ff0084;
     transform: scale(1, 1);
     margin-bottom: 0px;
+  }
+  .footerSocial {
+    margin-left: 0rem;
   }
 }
 /* max of 600 */
@@ -746,7 +736,7 @@ font-size: 18px; */
   .footerSubscribeInput {
     width: 350px;
     height: 50px;
-    margin-left: -15px;
+    /* margin-left: -15px; */
   }
 
   .footerSubscribeInput input {
@@ -860,7 +850,7 @@ font-size: 18px; */
   .footerSubscribeInput {
     width: 300px;
     height: 45px;
-    margin-left: -15px;
+    /* margin-left: -15px; */
     font-size: 14px;
   }
   .footerSubscribeInput input {
@@ -873,5 +863,12 @@ font-size: 18px; */
   .footerSubscribeInput span {
     flex-basis: 28%;
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .footerSubscribeInput {
+    width: 277px;
+    height: 42px;
   }
 }
